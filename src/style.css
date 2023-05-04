@@ -25,7 +25,7 @@ body {
   margin: 3% 8%;
 }
 
-.photo-grid {
+.hero-photo {
   display: block;
   height: 37%;
   margin: 0 auto;
@@ -42,5 +42,49 @@ body {
 .hero-paragraph {
   font-family: 'Poppins';
   font-size: 16px;
-  max-width: 25%;
+  max-width: 45%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  margin: 3% 8%;
+  font-size: 14px;
+  font-family: 'Poppins', 'sans-serif' l
+}
+
+.card-image {
+  width: 90%;
+  border-radius: 5%;
+}
+
+.card-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+.card-starimg {
+  width: 15%;
+}
+
+.card-blacktext {
+  color: #222222;
+}
+
+.card-graytext {
+  color: #918E9B
+}
+
+.card-description {
+  margin-top: 5%;
+}
+
+.card-bold {
+  font-weight:
 }
